@@ -50,7 +50,8 @@ public class Level_manager : MonoBehaviour
     }
     private void Awake()
     {
-        
+        Destroy(GameObject.Find("UI_Manager"));
+        Destroy(GameObject.Find("Game_Manager"));
     }
     // Update is called once per frame
     void Update()

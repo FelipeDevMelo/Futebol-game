@@ -25,5 +25,6 @@ public class OndeEstou : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        SceneManager.sceneLoaded += VerificaFase;
     }
 }
